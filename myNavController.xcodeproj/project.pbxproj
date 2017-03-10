@@ -12,6 +12,8 @@
 		D0BC903E1E72EAE00007D0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BC903C1E72EAE00007D0FB /* Main.storyboard */; };
 		D0BC90401E72EAE00007D0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BC903F1E72EAE00007D0FB /* Assets.xcassets */; };
 		D0BC90431E72EAE00007D0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BC90411E72EAE00007D0FB /* LaunchScreen.storyboard */; };
+		D0BC904F1E72F19C0007D0FB /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BC904E1E72F19C0007D0FB /* GreenVC.swift */; };
+		D0BC90511E72FC2E0007D0FB /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BC90501E72FC2E0007D0FB /* BlueVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D0BC903F1E72EAE00007D0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0BC90421E72EAE00007D0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0BC90441E72EAE00007D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BC904E1E72F19C0007D0FB /* GreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		D0BC90501E72FC2E0007D0FB /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D0BC903F1E72EAE00007D0FB /* Assets.xcassets */,
 				D0BC90411E72EAE00007D0FB /* LaunchScreen.storyboard */,
 				D0BC90441E72EAE00007D0FB /* Info.plist */,
+				D0BC904E1E72F19C0007D0FB /* GreenVC.swift */,
+				D0BC90501E72FC2E0007D0FB /* BlueVC.swift */,
 			);
 			path = myNavController;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BC90511E72FC2E0007D0FB /* BlueVC.swift in Sources */,
+				D0BC904F1E72F19C0007D0FB /* GreenVC.swift in Sources */,
 				D0BC903B1E72EAE00007D0FB /* ViewController.swift in Sources */,
 				D0BC90391E72EADF0007D0FB /* AppDelegate.swift in Sources */,
 			);
